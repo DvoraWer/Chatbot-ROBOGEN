@@ -1,0 +1,137 @@
+{
+  "01_company_profile.md": {
+    "doc_id": "RG-DOC-001",
+    "title": "פרופיל החברה",
+    "title_en": "Company Profile",
+    "doc_type": "overview",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "02_product_catalog.md": {
+    "doc_id": "RG-DOC-002",
+    "title": "קטלוג מוצרים",
+    "title_en": "Product Catalog",
+    "doc_type": "overview",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "03_atlas_specification.md": {
+    "doc_id": "RG-DOC-003",
+    "title": "מפרט טכני – ATLAS",
+    "title_en": "ATLAS Specification",
+    "doc_type": "product_spec",
+    "products": "ATLAS",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "04_titan_specification.md": {
+    "doc_id": "RG-DOC-004",
+    "title": "מפרט טכני – TITAN",
+    "title_en": "TITAN Specification",
+    "doc_type": "product_spec",
+    "products": "TITAN",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "05_scout_specification.md": {
+    "doc_id": "RG-DOC-005",
+    "title": "מפרט טכני – SCOUT",
+    "title_en": "SCOUT Specification",
+    "doc_type": "product_spec",
+    "products": "SCOUT",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "06_cargo_specification.md": {
+    "doc_id": "RG-DOC-006",
+    "title": "מפרט טכני – CARGO",
+    "title_en": "CARGO Specification",
+    "doc_type": "product_spec",
+    "products": "CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "07_sensors_guide.md": {
+    "doc_id": "RG-DOC-007",
+    "title": "מדריך חיישנים",
+    "title_en": "Sensors Guide",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "08_navigation_systems.md": {
+    "doc_id": "RG-DOC-008",
+    "title": "מערכות ניווט",
+    "title_en": "Navigation Systems",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "09_energy_systems.md": {
+    "doc_id": "RG-DOC-009",
+    "title": "מערכות אנרגיה וטעינה",
+    "title_en": "Energy Systems",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "10_control_and_ai_systems.md": {
+    "doc_id": "RG-DOC-010",
+    "title": "מערכות בקרה ו-AI",
+    "title_en": "Control and AI Systems",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "11_maintenance_guide.md": {
+    "doc_id": "RG-DOC-011",
+    "title": "מדריך תחזוקה",
+    "title_en": "Maintenance Guide",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "12_troubleshooting.md": {
+    "doc_id": "RG-DOC-012",
+    "title": "מדריך פתרון תקלות",
+    "title_en": "Troubleshooting",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "13_safety_guidelines.md": {
+    "doc_id": "RG-DOC-013",
+    "title": "הנחיות בטיחות",
+    "title_en": "Safety Guidelines",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "14_software_versions.md": {
+    "doc_id": "RG-DOC-014",
+    "title": "גרסאות תוכנה ועדכונים",
+    "title_en": "Software Versions",
+    "doc_type": "guide",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  },
+  "15_faq.md": {
+    "doc_id": "RG-DOC-015",
+    "title": "שאלות ותשובות נפוצות",
+    "title_en": "FAQ",
+    "doc_type": "faq",
+    "products": "ATLAS, TITAN, SCOUT, CARGO",
+    "version": "1.0",
+    "updated": "2026-10-31"
+  }
+}

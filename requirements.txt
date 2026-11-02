@@ -1,0 +1,15 @@
+llama-index-core
+llama-index-llms-google-genai
+llama-index-embeddings-google-genai
+llama-index-vector-stores-chroma
+chromadb
+python-dotenv
+streamlit
+truststore              # Python משתמש בתעודות של Windows (נדרש מאחורי NetFree)
+
+# BM25: החבילה מחייבת pystemmer<3, שאין לו wheel ל-Python 3.14 ב-Windows.
+# אנחנו לא משתמשים ב-stemmer האנגלי, לכן מתקינים כך:
+#   pip install -r requirements.txt
+#   pip install --no-deps llama-index-retrievers-bm25
+bm25s
+pystemmer==3.1.0

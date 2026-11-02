@@ -1,0 +1,18 @@
+[
+  {"question": "מה כושר הנשיאה המרבי של CARGO?", "expected_answer": "עד 300 ק\"ג", "expected_docs": ["RG-DOC-006", "RG-DOC-015"], "type": "factual"},
+  {"question": "מה זמן העבודה של SCOUT?", "expected_answer": "עד 4 שעות בתנאים נומינליים", "expected_docs": ["RG-DOC-005", "RG-DOC-009"], "type": "factual"},
+  {"question": "מה טווח ההגעה של TITAN?", "expected_answer": "1.3 מטר", "expected_docs": ["RG-DOC-004"], "type": "factual"},
+  {"question": "מה זה RG-03?", "expected_answer": "SCOUT, רובוט סיור בעל ארבע רגליים", "expected_docs": ["RG-DOC-005", "RG-DOC-002"], "type": "identifier"},
+  {"question": "מה ההבדל בין החיישנים של ATLAS ושל SCOUT?", "expected_answer": "ATLAS: LiDAR, Depth, RGB. SCOUT: LiDAR, IMU, RGB, Thermal", "expected_docs": ["RG-DOC-003", "RG-DOC-005", "RG-DOC-007"], "type": "comparison"},
+  {"question": "אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?", "expected_answer": "ATLAS, SCOUT, CARGO, עם תפקיד לכל אחד", "expected_docs": ["RG-DOC-007", "RG-DOC-008"], "type": "multi_doc"},
+  {"question": "איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?", "expected_answer": "SCOUT", "expected_docs": ["RG-DOC-005", "RG-DOC-002", "RG-DOC-015"], "type": "recommendation"},
+  {"question": "איזה רובוט מתאים להעברת מטען של 200 ק\"ג במחסן?", "expected_answer": "CARGO", "expected_docs": ["RG-DOC-006", "RG-DOC-002"], "type": "recommendation"},
+  {"question": "איזה רובוט מתחבר לרשת דרך Ethernet?", "expected_answer": "TITAN", "expected_docs": ["RG-DOC-004", "RG-DOC-012"], "type": "factual"},
+  {"question": "האם TITAN יכולה לנוע בין תחנות עבודה?", "expected_answer": "לא, התקנה קבועה", "expected_docs": ["RG-DOC-004", "RG-DOC-008", "RG-DOC-015"], "type": "factual"},
+  {"question": "מה עושים אם CARGO לא חוזר לעמדת הטעינה?", "expected_answer": "לבדוק שהעמדה מחוברת, שהגישה פנויה ושהמסלול לא חסום", "expected_docs": ["RG-DOC-012"], "type": "procedural"},
+  {"question": "לאיזו מחלקה מדווחים על תקלה חוזרת?", "expected_answer": "Service & Maintenance", "expected_docs": ["RG-DOC-011", "RG-DOC-013"], "type": "factual"},
+  {"question": "האם ATLAS יכול לשאת משקל של 50 ק\"ג?", "expected_answer": "לא, עד 5 ק\"ג", "expected_docs": ["RG-DOC-003", "RG-DOC-015"], "type": "false_premise"},
+  {"question": "מה המחיר של TITAN?", "expected_answer": "המידע אינו מופיע במסמכים", "expected_docs": [], "type": "unanswerable"},
+  {"question": "כמה זמן לוקח לטעון את SCOUT?", "expected_answer": "המידע אינו מופיע במסמכים", "expected_docs": ["RG-DOC-009"], "type": "unanswerable"},
+  {"question": "מהי גרסת התוכנה הנוכחית של CARGO?", "expected_answer": "המידע אינו מופיע במסמכים", "expected_docs": ["RG-DOC-014"], "type": "unanswerable"}
+]

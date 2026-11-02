@@ -1,0 +1,15 @@
+# סודות
+.env
+
+# סביבה וירטואלית
+.venv/
+
+# נתונים שנוצרים אוטומטית (ChromaDB + docstore)
+storage/
+
+# Python
+__pycache__/
+*.pyc
+
+# cache של embeddings בכלי הבדיקה (נוצר מחדש אוטומטית)
+eval/cache/

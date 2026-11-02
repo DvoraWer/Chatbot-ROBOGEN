@@ -1,0 +1,14 @@
+[
+  {"question": "כמה שוקל SCOUT?", "expected_answer": "32 ק\"ג", "expected_docs": ["RG-DOC-005"], "type": "paraphrase"},
+  {"question": "איזה רובוט הכי מהיר?", "expected_answer": "CARGO מוביל מבין הרובוטים שהמהירות שלהם מתועדת (עד 1.2 מ'/ש'); SCOUT עד 1, ATLAS עד 0.8. ל-TITAN לא מצוינת מהירות. לא להציג כמסקנה על כלל המוצרים", "expected_docs": ["RG-DOC-003", "RG-DOC-005", "RG-DOC-006"], "type": "comparison", "used_for_diagnosis": true},
+  {"question": "איזה רובוט יש לו מצלמה שמזהה חום?", "expected_answer": "SCOUT (Thermal Camera)", "expected_docs": ["RG-DOC-005", "RG-DOC-007", "RG-DOC-015"], "type": "synonym"},
+  {"question": "מה הדיוק החזרתי של הזרוע?", "expected_answer": "±0.05 מ\"מ (TITAN)", "expected_docs": ["RG-DOC-004"], "type": "factual"},
+  {"question": "כמה זמן הקרגו מחזיק בטעינה אחת?", "expected_answer": "עד 8 שעות בתנאים נומינליים", "expected_docs": ["RG-DOC-006", "RG-DOC-009", "RG-DOC-015"], "type": "transliteration"},
+  {"question": "האם SCOUT יכול לעבוד 6 שעות ברצף?", "expected_answer": "לא, עד 4 שעות בתנאים נומינליים", "expected_docs": ["RG-DOC-005", "RG-DOC-009", "RG-DOC-015"], "type": "false_premise"},
+  {"question": "אילו רובוטים לא מתאימים לעבודה בגשם?", "expected_answer": "רק לגבי ATLAS מצוין במפורש שאינו מיועד לגשם או לסביבה רטובה; לגבי השאר אין מידע", "expected_docs": ["RG-DOC-003"], "type": "partial"},
+  {"question": "מה מתח הסוללה של SCOUT?", "expected_answer": "המידע אינו מופיע (אסור לענות 48V – זה של ATLAS)", "expected_docs": ["RG-DOC-009"], "type": "unanswerable"},
+  {"question": "מה צריך לעשות לפני החלפת אביזר קצה ב-TITAN?", "expected_answer": "עצירה ובידוד אנרגיה לפי נוהל מוסמך", "expected_docs": ["RG-DOC-013"], "type": "procedural"},
+  {"question": "מי אחראי על עדכוני תוכנה ברובוטים?", "expected_answer": "צוות Software & AI; צוות Service & Maintenance מסייע בבדיקות", "expected_docs": ["RG-DOC-014"], "type": "factual"},
+  {"question": "What is the payload of TITAN?", "expected_answer": "עד 12 ק\"ג, כולל כלי הקצה והאביזרים. התשובה צריכה להיות בעברית", "expected_docs": ["RG-DOC-004", "RG-DOC-015"], "type": "english"},
+  {"question": "מה מזג האוויר היום?", "expected_answer": "המידע אינו מופיע במסמכי החברה", "expected_docs": [], "type": "out_of_domain"}
+]

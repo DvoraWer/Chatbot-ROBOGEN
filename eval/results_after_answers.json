@@ -1,0 +1,634 @@
+[
+  {
+    "id": 1,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "מה כושר הנשיאה המרבי של CARGO?",
+    "expected_answer": "עד 300 ק\"ג",
+    "answer": "כושר הנשיאה המרבי של CARGO הוא עד 300 ק״ג.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "sources": [
+      "RG-DOC-006",
+      "RG-DOC-015",
+      "RG-DOC-013"
+    ],
+    "expected_docs": [
+      "RG-DOC-006",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-006",
+      "RG-DOC-015"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-013"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-006",
+      "RG-DOC-006",
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-003",
+      "RG-DOC-013"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 2,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "מה זמן העבודה של SCOUT?",
+    "expected_answer": "עד 4 שעות בתנאים נומינליים",
+    "answer": "זמן העבודה הנומינלי של SCOUT הוא עד 4 שעות. זמן העבודה בפועל עשוי להשתנות בהתאם לתוואי, למהירות, לעומס, לתדירות העצירות, לשימוש בחיישנים, לתנאי הסביבה ולמצב הסוללה.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "sources": [
+      "RG-DOC-005",
+      "RG-DOC-009",
+      "RG-DOC-002"
+    ],
+    "expected_docs": [
+      "RG-DOC-005",
+      "RG-DOC-009"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-005",
+      "RG-DOC-009"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-002"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-005",
+      "RG-DOC-005",
+      "RG-DOC-015",
+      "RG-DOC-009",
+      "RG-DOC-005",
+      "RG-DOC-002"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 3,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "מה טווח ההגעה של TITAN?",
+    "expected_answer": "1.3 מטר",
+    "answer": "טווח ההגעה של TITAN הוא 1.3 מטר.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1
+    ],
+    "sources": [
+      "RG-DOC-004"
+    ],
+    "expected_docs": [
+      "RG-DOC-004"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-004"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-004",
+      "RG-DOC-004",
+      "RG-DOC-015",
+      "RG-DOC-009",
+      "RG-DOC-015",
+      "RG-DOC-008"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 4,
+    "type": "identifier",
+    "used_for_diagnosis": false,
+    "question": "מה זה RG-03?",
+    "expected_answer": "SCOUT, רובוט סיור בעל ארבע רגליים",
+    "answer": "RG-03 הוא SCOUT, רובוט סיור ובקרה בעל ארבע רגליים (Quadruped Inspection Robot). ייעודו המרכזי הוא סריקת מתקנים תעשייתיים, איסוף נתונים ותיעוד חריגות סביבתיות.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "sources": [
+      "RG-DOC-005",
+      "RG-DOC-001",
+      "RG-DOC-002"
+    ],
+    "expected_docs": [
+      "RG-DOC-005",
+      "RG-DOC-002"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-005",
+      "RG-DOC-002"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-001"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-005",
+      "RG-DOC-001",
+      "RG-DOC-002",
+      "RG-DOC-015",
+      "RG-DOC-002",
+      "RG-DOC-010"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 5,
+    "type": "comparison",
+    "used_for_diagnosis": false,
+    "question": "מה ההבדל בין החיישנים של ATLAS ושל SCOUT?",
+    "expected_answer": "ATLAS: LiDAR, Depth, RGB. SCOUT: LiDAR, IMU, RGB, Thermal",
+    "answer": "ההבדלים בין החיישנים של ATLAS ו-SCOUT הם כדלקמן:\n\n*   **LiDAR:** שניהם משתמשים ב-LiDAR. ב-ATLAS הוא משמש לניווט פנימי וזיהוי מכשולים, וב-SCOUT הוא משמש למיפוי סביבת סיור וזיהוי מכשולים.\n*   **מצלמת RGB:** שניהם מצוידים במצלמת RGB. ב-ATLAS היא משמשת לזיהוי אובייקטים ותמיכה באינטראקציה עם הסביבה, וב-SCOUT היא משמשת לתיעוד חזותי במהלך סיורים.\n*   **מצלמת עומק (Depth Camera):** קיימת ב-ATLAS בלבד, ומסייעת בהבנת מרחקים ובניווט בסביבה פנימית.\n*   **מצלמה תרמית (Thermal Camera):** קיימת ב-SCOUT בלבד, ומאפשרת מדידות טמפרטורה ותיעוד אזורים חמים.\n*   **IMU:** קיים ב-SCOUT בלבד, ומסייע בהערכת תנועה והתמצאות של הרובוט.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "sources": [
+      "RG-DOC-002",
+      "RG-DOC-007",
+      "RG-DOC-005",
+      "RG-DOC-015"
+    ],
+    "expected_docs": [
+      "RG-DOC-003",
+      "RG-DOC-005",
+      "RG-DOC-007"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-007",
+      "RG-DOC-005"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-002",
+      "RG-DOC-015"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-002",
+      "RG-DOC-007",
+      "RG-DOC-005",
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-007"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 6,
+    "type": "multi_doc",
+    "used_for_diagnosis": false,
+    "question": "אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?",
+    "expected_answer": "ATLAS, SCOUT, CARGO, עם תפקיד לכל אחד",
+    "answer": "הרובוטים המשתמשים ב-LiDAR ותפקידו בכל אחד מהם הם:\n\n*   **ATLAS:** משמש לניווט פנימי, סיוע בהבנת מרחקים וזיהוי מכשולים.\n*   **SCOUT:** משמש למיפוי סביבת סיור, זיהוי מכשולים וניווט במהלך סיורים (בשילוב עם נתוני IMU).\n*   **CARGO:** משמש לניווט מבוסס SLAM, זיהוי מכשולים וניווט במסלולי שינוע ממופים.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "sources": [
+      "RG-DOC-008",
+      "RG-DOC-015",
+      "RG-DOC-007"
+    ],
+    "expected_docs": [
+      "RG-DOC-007",
+      "RG-DOC-008"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-008",
+      "RG-DOC-007"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-015"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-008",
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-007"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 7,
+    "type": "recommendation",
+    "used_for_diagnosis": false,
+    "question": "איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?",
+    "expected_answer": "SCOUT",
+    "answer": "הרובוט המתאים לסיורים ולמדידת טמפרטורה הוא SCOUT.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "sources": [
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-005",
+      "RG-DOC-002"
+    ],
+    "expected_docs": [
+      "RG-DOC-005",
+      "RG-DOC-002",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-015",
+      "RG-DOC-005",
+      "RG-DOC-002"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-007"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-005",
+      "RG-DOC-002",
+      "RG-DOC-007"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 8,
+    "type": "recommendation",
+    "used_for_diagnosis": false,
+    "question": "איזה רובוט מתאים להעברת מטען של 200 ק\"ג במחסן?",
+    "expected_answer": "CARGO",
+    "answer": "הרובוט המתאים להעברת מטען של 200 ק\"ג הוא CARGO (RG-04), שכן כושר הנשיאה (payload) שלו הוא עד 300 ק\"ג והוא מיועד להעברת ציוד וסחורות במחסנים ומרכזים לוגיסטיים.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sources": [
+      "RG-DOC-015",
+      "RG-DOC-002",
+      "RG-DOC-006",
+      "RG-DOC-001"
+    ],
+    "expected_docs": [
+      "RG-DOC-006",
+      "RG-DOC-002"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-002",
+      "RG-DOC-006"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-015",
+      "RG-DOC-001"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-002",
+      "RG-DOC-006",
+      "RG-DOC-006",
+      "RG-DOC-015",
+      "RG-DOC-001"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 9,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "איזה רובוט מתחבר לרשת דרך Ethernet?",
+    "expected_answer": "TITAN",
+    "answer": "הרובוט שמתחבר לרשת דרך Ethernet הוא TITAN.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      2,
+      4,
+      6
+    ],
+    "sources": [
+      "RG-DOC-012",
+      "RG-DOC-002",
+      "RG-DOC-010"
+    ],
+    "expected_docs": [
+      "RG-DOC-004",
+      "RG-DOC-012"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-012"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-002",
+      "RG-DOC-010"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-012",
+      "RG-DOC-015",
+      "RG-DOC-002",
+      "RG-DOC-001",
+      "RG-DOC-010"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 10,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "האם TITAN יכולה לנוע בין תחנות עבודה?",
+    "expected_answer": "לא, התקנה קבועה",
+    "answer": "לא, TITAN אינה יכולה לנוע בין תחנות עבודה. על פי מסמכי החברה, TITAN היא זרוע רובוטית המיועדת להתקנה קבועה בלבד, ואינה מוגדרת כרובוט נייד.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      3
+    ],
+    "sources": [
+      "RG-DOC-004",
+      "RG-DOC-015"
+    ],
+    "expected_docs": [
+      "RG-DOC-004",
+      "RG-DOC-008",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-004",
+      "RG-DOC-015"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-004",
+      "RG-DOC-002",
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-001",
+      "RG-DOC-010"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 11,
+    "type": "procedural",
+    "used_for_diagnosis": false,
+    "question": "מה עושים אם CARGO לא חוזר לעמדת הטעינה?",
+    "expected_answer": "לבדוק שהעמדה מחוברת, שהגישה פנויה ושהמסלול לא חסום",
+    "answer": "במקרה ש-CARGO אינו חוזר לעמדת הטעינה, יש לבדוק את הדברים הבאים:\n* שהעמדה מחוברת וזמינה.\n* שהגישה לעמדה פנויה.\n* שהמסלול אינו חסום.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1
+    ],
+    "sources": [
+      "RG-DOC-012"
+    ],
+    "expected_docs": [
+      "RG-DOC-012"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-012"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-012",
+      "RG-DOC-006",
+      "RG-DOC-015",
+      "RG-DOC-006",
+      "RG-DOC-012",
+      "RG-DOC-009"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 12,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "לאיזו מחלקה מדווחים על תקלה חוזרת?",
+    "expected_answer": "Service & Maintenance",
+    "answer": "על פי מסמכי החברה, במקרה של תקלה חוזרת יש להעביר את הרובוט לצוות Service & Maintenance.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1
+    ],
+    "sources": [
+      "RG-DOC-011"
+    ],
+    "expected_docs": [
+      "RG-DOC-011",
+      "RG-DOC-013"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-011"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-011",
+      "RG-DOC-014",
+      "RG-DOC-012",
+      "RG-DOC-014",
+      "RG-DOC-001",
+      "RG-DOC-010"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 13,
+    "type": "false_premise",
+    "used_for_diagnosis": false,
+    "question": "האם ATLAS יכול לשאת משקל של 50 ק\"ג?",
+    "expected_answer": "לא, עד 5 ק\"ג",
+    "answer": "לא, ATLAS אינו יכול לשאת משקל של 50 ק\"ג. ה-payload המתועד שלו הוא עד 5 ק\"ג בלבד, והוא אינו מתאים להרמת מטענים החורגים ממפרט זה.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "sources": [
+      "RG-DOC-003",
+      "RG-DOC-015"
+    ],
+    "expected_docs": [
+      "RG-DOC-003",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-003",
+      "RG-DOC-015"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-003",
+      "RG-DOC-015",
+      "RG-DOC-003",
+      "RG-DOC-002",
+      "RG-DOC-003",
+      "RG-DOC-004"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 14,
+    "type": "unanswerable",
+    "used_for_diagnosis": false,
+    "question": "מה המחיר של TITAN?",
+    "expected_answer": "המידע אינו מופיע במסמכים",
+    "answer": "המידע אינו מופיע במסמכי החברה.",
+    "says_not_found": true,
+    "citations_parsed": true,
+    "cited_chunks": [],
+    "sources": [],
+    "expected_docs": [],
+    "sources_in_expected": [],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-004",
+      "RG-DOC-004",
+      "RG-DOC-015",
+      "RG-DOC-001",
+      "RG-DOC-002",
+      "RG-DOC-015"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 15,
+    "type": "unanswerable",
+    "used_for_diagnosis": false,
+    "question": "כמה זמן לוקח לטעון את SCOUT?",
+    "expected_answer": "המידע אינו מופיע במסמכים",
+    "answer": "המידע אינו מופיע במסמכי החברה.",
+    "says_not_found": true,
+    "citations_parsed": true,
+    "cited_chunks": [
+      3,
+      5
+    ],
+    "sources": [],
+    "expected_docs": [
+      "RG-DOC-009"
+    ],
+    "sources_in_expected": [],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-009",
+      "RG-DOC-005",
+      "RG-DOC-009",
+      "RG-DOC-002"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 16,
+    "type": "unanswerable",
+    "used_for_diagnosis": false,
+    "question": "מהי גרסת התוכנה הנוכחית של CARGO?",
+    "expected_answer": "המידע אינו מופיע במסמכים",
+    "answer": "אין במאגר הנוכחי מספר גרסה מתועד עבור CARGO.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      3,
+      5
+    ],
+    "sources": [
+      "RG-DOC-014",
+      "RG-DOC-015"
+    ],
+    "expected_docs": [
+      "RG-DOC-014"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-014"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-015"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-014",
+      "RG-DOC-010",
+      "RG-DOC-014",
+      "RG-DOC-006",
+      "RG-DOC-015",
+      "RG-DOC-008"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  }
+]

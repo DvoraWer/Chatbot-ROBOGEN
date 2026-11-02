@@ -1,0 +1,440 @@
+[
+  {
+    "id": 1,
+    "type": "paraphrase",
+    "used_for_diagnosis": false,
+    "question": "כמה שוקל SCOUT?",
+    "expected_answer": "32 ק\"ג",
+    "answer": "SCOUT שוקל 32 ק\"ג.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      2
+    ],
+    "sources": [
+      "RG-DOC-005"
+    ],
+    "expected_docs": [
+      "RG-DOC-005"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-005"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-005",
+      "RG-DOC-005",
+      "RG-DOC-005",
+      "RG-DOC-007",
+      "RG-DOC-015"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 2,
+    "type": "comparison",
+    "used_for_diagnosis": true,
+    "question": "איזה רובוט הכי מהיר?",
+    "expected_answer": "CARGO מוביל מבין הרובוטים שהמהירות שלהם מתועדת (עד 1.2 מ'/ש'); SCOUT עד 1, ATLAS עד 0.8. ל-TITAN לא מצוינת מהירות. לא להציג כמסקנה על כלל המוצרים",
+    "answer": "להלן נתוני המהירות המרבית של הרובוטים המופיעים במסמכים:\n\n*   **CARGO:** עד 1.2 מטר/שנייה.\n*   **SCOUT:** עד 1 מטר/שנייה.\n*   **ATLAS:** עד 0.8 מטר/שנייה.\n*   **TITAN:** המידע אינו מופיע במסמכי החברה.\n\nמבין הרובוטים שנתוניהם מתועדים, CARGO הוא המהיר ביותר.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      4,
+      5,
+      6
+    ],
+    "sources": [
+      "RG-DOC-005",
+      "RG-DOC-003",
+      "RG-DOC-006"
+    ],
+    "expected_docs": [
+      "RG-DOC-003",
+      "RG-DOC-005",
+      "RG-DOC-006"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-005",
+      "RG-DOC-003",
+      "RG-DOC-006"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-001",
+      "RG-DOC-005",
+      "RG-DOC-003",
+      "RG-DOC-006"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 3,
+    "type": "synonym",
+    "used_for_diagnosis": false,
+    "question": "איזה רובוט יש לו מצלמה שמזהה חום?",
+    "expected_answer": "SCOUT (Thermal Camera)",
+    "answer": "הרובוט המצויד במצלמה תרמית (Thermal Camera) המזהה חום הוא SCOUT.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "sources": [
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-005"
+    ],
+    "expected_docs": [
+      "RG-DOC-005",
+      "RG-DOC-007",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-005"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-015",
+      "RG-DOC-005",
+      "RG-DOC-007",
+      "RG-DOC-005"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 4,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "מה הדיוק החזרתי של הזרוע?",
+    "expected_answer": "±0.05 מ\"מ (TITAN)",
+    "answer": "דיוק החזרתיות (Repeatability) של הזרוע TITAN הוא ±0.05 מ״מ.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1
+    ],
+    "sources": [
+      "RG-DOC-004"
+    ],
+    "expected_docs": [
+      "RG-DOC-004"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-004"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-004",
+      "RG-DOC-004",
+      "RG-DOC-001",
+      "RG-DOC-008",
+      "RG-DOC-015",
+      "RG-DOC-015"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 5,
+    "type": "transliteration",
+    "used_for_diagnosis": false,
+    "question": "כמה זמן הקרגו מחזיק בטעינה אחת?",
+    "expected_answer": "עד 8 שעות בתנאים נומינליים",
+    "answer": "זמן הפעולה של CARGO הוא עד 8 שעות בתנאים נומינליים. זמן הפעולה בפועל עשוי להשתנות בהתאם לעומס, מהירות, תדירות עצירות, שימוש בחיישנים, תנאי סביבה ומצב הסוללה.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      4,
+      6
+    ],
+    "sources": [
+      "RG-DOC-009",
+      "RG-DOC-006",
+      "RG-DOC-012"
+    ],
+    "expected_docs": [
+      "RG-DOC-006",
+      "RG-DOC-009",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-009",
+      "RG-DOC-006"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-012"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-009",
+      "RG-DOC-015",
+      "RG-DOC-006",
+      "RG-DOC-006",
+      "RG-DOC-009",
+      "RG-DOC-012"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 6,
+    "type": "false_premise",
+    "used_for_diagnosis": false,
+    "question": "האם SCOUT יכול לעבוד 6 שעות ברצף?",
+    "expected_answer": "לא, עד 4 שעות בתנאים נומינליים",
+    "answer": "לא, SCOUT אינו יכול לעבוד 6 שעות ברצף. זמן העבודה הנומינלי שלו הוא עד 4 שעות בתנאים נומינליים.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sources": [
+      "RG-DOC-005",
+      "RG-DOC-015",
+      "RG-DOC-009",
+      "RG-DOC-012"
+    ],
+    "expected_docs": [
+      "RG-DOC-005",
+      "RG-DOC-009",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-005",
+      "RG-DOC-015",
+      "RG-DOC-009"
+    ],
+    "sources_not_in_expected": [
+      "RG-DOC-012"
+    ],
+    "retrieved_docs": [
+      "RG-DOC-005",
+      "RG-DOC-005",
+      "RG-DOC-015",
+      "RG-DOC-009",
+      "RG-DOC-012",
+      "RG-DOC-015"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 7,
+    "type": "partial",
+    "used_for_diagnosis": false,
+    "question": "אילו רובוטים לא מתאימים לעבודה בגשם?",
+    "expected_answer": "רק לגבי ATLAS מצוין במפורש שאינו מיועד לגשם או לסביבה רטובה; לגבי השאר אין מידע",
+    "answer": "המידע אינו מופיע במסמכי החברה עבור כלל הרובוטים. המידע המתועד הוא:\n\n*   **ATLAS:** אינו מיועד לעבודה בגשם או בסביבה רטובה.\n\nעבור הרובוטים TITAN, SCOUT ו-CARGO, המידע אינו מופיע במסמכי החברה.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      2
+    ],
+    "sources": [
+      "RG-DOC-003"
+    ],
+    "expected_docs": [
+      "RG-DOC-003"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-003"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-003",
+      "RG-DOC-015",
+      "RG-DOC-007",
+      "RG-DOC-001",
+      "RG-DOC-001"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 8,
+    "type": "unanswerable",
+    "used_for_diagnosis": false,
+    "question": "מה מתח הסוללה של SCOUT?",
+    "expected_answer": "המידע אינו מופיע (אסור לענות 48V – זה של ATLAS)",
+    "answer": "המידע אינו מופיע במסמכי החברה.",
+    "says_not_found": true,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1
+    ],
+    "sources": [],
+    "expected_docs": [
+      "RG-DOC-009"
+    ],
+    "sources_in_expected": [],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-009",
+      "RG-DOC-005",
+      "RG-DOC-009",
+      "RG-DOC-005",
+      "RG-DOC-012",
+      "RG-DOC-005"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 9,
+    "type": "procedural",
+    "used_for_diagnosis": false,
+    "question": "מה צריך לעשות לפני החלפת אביזר קצה ב-TITAN?",
+    "expected_answer": "עצירה ובידוד אנרגיה לפי נוהל מוסמך",
+    "answer": "לפני החלפת אביזר קצה ב-TITAN, יש לבצע עצירה ובידוד אנרגיה של המערכת בהתאם לנוהל מוסמך.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      6
+    ],
+    "sources": [
+      "RG-DOC-013"
+    ],
+    "expected_docs": [
+      "RG-DOC-013"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-013"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-004",
+      "RG-DOC-004",
+      "RG-DOC-009",
+      "RG-DOC-014",
+      "RG-DOC-015",
+      "RG-DOC-013"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 10,
+    "type": "factual",
+    "used_for_diagnosis": false,
+    "question": "מי אחראי על עדכוני תוכנה ברובוטים?",
+    "expected_answer": "צוות Software & AI; צוות Service & Maintenance מסייע בבדיקות",
+    "answer": "צוות Software & AI אחראי לתיאום עדכוני תוכנה ברובוטים.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1
+    ],
+    "sources": [
+      "RG-DOC-014"
+    ],
+    "expected_docs": [
+      "RG-DOC-014"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-014"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-014",
+      "RG-DOC-010",
+      "RG-DOC-001",
+      "RG-DOC-014",
+      "RG-DOC-010",
+      "RG-DOC-011"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 11,
+    "type": "english",
+    "used_for_diagnosis": false,
+    "question": "What is the payload of TITAN?",
+    "expected_answer": "עד 12 ק\"ג, כולל כלי הקצה והאביזרים. התשובה צריכה להיות בעברית",
+    "answer": "ה-payload של TITAN הוא עד 12 ק\"ג, כולל משקל כלי הקצה והאביזרים.",
+    "says_not_found": false,
+    "citations_parsed": true,
+    "cited_chunks": [
+      1,
+      4
+    ],
+    "sources": [
+      "RG-DOC-004"
+    ],
+    "expected_docs": [
+      "RG-DOC-004",
+      "RG-DOC-015"
+    ],
+    "sources_in_expected": [
+      "RG-DOC-004"
+    ],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-004",
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-004",
+      "RG-DOC-006",
+      "RG-DOC-009"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  },
+  {
+    "id": 12,
+    "type": "out_of_domain",
+    "used_for_diagnosis": false,
+    "question": "מה מזג האוויר היום?",
+    "expected_answer": "המידע אינו מופיע במסמכי החברה",
+    "answer": "המידע אינו מופיע במסמכי החברה.",
+    "says_not_found": true,
+    "citations_parsed": true,
+    "cited_chunks": [],
+    "sources": [],
+    "expected_docs": [],
+    "sources_in_expected": [],
+    "sources_not_in_expected": [],
+    "retrieved_docs": [
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-015",
+      "RG-DOC-014",
+      "RG-DOC-005",
+      "RG-DOC-005"
+    ],
+    "manual_correct": null,
+    "manual_hallucination": null,
+    "manual_notes": ""
+  }
+]

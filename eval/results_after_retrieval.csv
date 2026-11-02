@@ -1,0 +1,121 @@
+﻿config,id,type,question,expected_docs,hit,first_rank,retrieved_docs
+main,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-015 RG-DOC-003 RG-DOC-013
+main,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,1,RG-DOC-005 RG-DOC-005 RG-DOC-015 RG-DOC-009 RG-DOC-005 RG-DOC-002
+main,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-015 RG-DOC-009 RG-DOC-015 RG-DOC-008
+main,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-005 RG-DOC-001 RG-DOC-002 RG-DOC-015 RG-DOC-002 RG-DOC-010
+main,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,2,RG-DOC-002 RG-DOC-007 RG-DOC-005 RG-DOC-015 RG-DOC-015 RG-DOC-007
+main,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,1,RG-DOC-008 RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-015 RG-DOC-007
+main,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-015 RG-DOC-007 RG-DOC-005 RG-DOC-002 RG-DOC-007
+main,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,2,RG-DOC-015 RG-DOC-002 RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-001
+main,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,2,RG-DOC-015 RG-DOC-012 RG-DOC-015 RG-DOC-002 RG-DOC-001 RG-DOC-010
+main,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,1,RG-DOC-004 RG-DOC-002 RG-DOC-015 RG-DOC-015 RG-DOC-001 RG-DOC-010
+main,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,1,RG-DOC-012 RG-DOC-006 RG-DOC-015 RG-DOC-006 RG-DOC-012 RG-DOC-009
+main,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,1,RG-DOC-011 RG-DOC-014 RG-DOC-012 RG-DOC-014 RG-DOC-001 RG-DOC-010
+main,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-003 RG-DOC-015 RG-DOC-003 RG-DOC-002 RG-DOC-003 RG-DOC-004
+main,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,3,RG-DOC-015 RG-DOC-015 RG-DOC-009 RG-DOC-005 RG-DOC-009 RG-DOC-002
+main,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-010 RG-DOC-014 RG-DOC-006 RG-DOC-015 RG-DOC-008
+vector_only,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-015 RG-DOC-002 RG-DOC-013
+vector_only,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,1,RG-DOC-005 RG-DOC-005 RG-DOC-005 RG-DOC-009 RG-DOC-009 RG-DOC-012
+vector_only,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-009 RG-DOC-008 RG-DOC-015 RG-DOC-012
+vector_only,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-005 RG-DOC-001 RG-DOC-015 RG-DOC-002 RG-DOC-002 RG-DOC-010
+vector_only,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,1,RG-DOC-007 RG-DOC-007 RG-DOC-002 RG-DOC-005 RG-DOC-015 RG-DOC-003
+vector_only,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,1,RG-DOC-008 RG-DOC-007 RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-002
+vector_only,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,2,RG-DOC-007 RG-DOC-015 RG-DOC-015 RG-DOC-005 RG-DOC-001 RG-DOC-002
+vector_only,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,2,RG-DOC-015 RG-DOC-002 RG-DOC-006 RG-DOC-001 RG-DOC-006 RG-DOC-002
+vector_only,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,6,RG-DOC-010 RG-DOC-015 RG-DOC-001 RG-DOC-002 RG-DOC-015 RG-DOC-012
+vector_only,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-008 RG-DOC-015 RG-DOC-002 RG-DOC-015
+vector_only,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,1,RG-DOC-012 RG-DOC-006 RG-DOC-015 RG-DOC-006 RG-DOC-009 RG-DOC-012
+vector_only,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,4,RG-DOC-012 RG-DOC-014 RG-DOC-012 RG-DOC-011 RG-DOC-001 RG-DOC-015
+vector_only,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-003 RG-DOC-003 RG-DOC-003 RG-DOC-015 RG-DOC-002 RG-DOC-015
+vector_only,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,4,RG-DOC-005 RG-DOC-005 RG-DOC-005 RG-DOC-009 RG-DOC-009 RG-DOC-012
+vector_only,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-006 RG-DOC-006 RG-DOC-014 RG-DOC-010 RG-DOC-015
+bm25_only,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-015 RG-DOC-006 RG-DOC-004 RG-DOC-003 RG-DOC-015
+bm25_only,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,2,RG-DOC-015 RG-DOC-005 RG-DOC-005 RG-DOC-002 RG-DOC-013 RG-DOC-012
+bm25_only,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-015 RG-DOC-012 RG-DOC-005 RG-DOC-002
+bm25_only,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-002 RG-DOC-005 RG-DOC-001 RG-DOC-010 RG-DOC-015 RG-DOC-002
+bm25_only,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,0,,RG-DOC-001 RG-DOC-010 RG-DOC-015 RG-DOC-015 RG-DOC-002 RG-DOC-002
+bm25_only,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,2,RG-DOC-015 RG-DOC-008 RG-DOC-015 RG-DOC-012 RG-DOC-007 RG-DOC-001
+bm25_only,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-005 RG-DOC-008 RG-DOC-015 RG-DOC-003 RG-DOC-002
+bm25_only,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,3,RG-DOC-015 RG-DOC-015 RG-DOC-006 RG-DOC-002 RG-DOC-006 RG-DOC-003
+bm25_only,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,1,RG-DOC-012 RG-DOC-015 RG-DOC-015 RG-DOC-011 RG-DOC-004 RG-DOC-010
+bm25_only,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,3,RG-DOC-010 RG-DOC-002 RG-DOC-015 RG-DOC-005 RG-DOC-004 RG-DOC-005
+bm25_only,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,1,RG-DOC-012 RG-DOC-006 RG-DOC-015 RG-DOC-012 RG-DOC-009 RG-DOC-006
+bm25_only,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,1,RG-DOC-011 RG-DOC-013 RG-DOC-014 RG-DOC-014 RG-DOC-012 RG-DOC-003
+bm25_only,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-003 RG-DOC-003 RG-DOC-004 RG-DOC-006 RG-DOC-005
+bm25_only,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,5,RG-DOC-015 RG-DOC-015 RG-DOC-003 RG-DOC-004 RG-DOC-009 RG-DOC-013
+bm25_only,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-015 RG-DOC-010 RG-DOC-014 RG-DOC-001 RG-DOC-013
+no_embed_prefixes,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-015 RG-DOC-003 RG-DOC-013
+no_embed_prefixes,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,1,RG-DOC-005 RG-DOC-005 RG-DOC-015 RG-DOC-009 RG-DOC-005 RG-DOC-015
+no_embed_prefixes,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-015 RG-DOC-009 RG-DOC-015 RG-DOC-012
+no_embed_prefixes,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-005 RG-DOC-002 RG-DOC-015 RG-DOC-002 RG-DOC-001 RG-DOC-010
+no_embed_prefixes,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,1,RG-DOC-007 RG-DOC-007 RG-DOC-015 RG-DOC-002 RG-DOC-005 RG-DOC-001
+no_embed_prefixes,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,1,RG-DOC-008 RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-007 RG-DOC-015
+no_embed_prefixes,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-007 RG-DOC-005 RG-DOC-002
+no_embed_prefixes,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,2,RG-DOC-015 RG-DOC-002 RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-001
+no_embed_prefixes,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,1,RG-DOC-012 RG-DOC-015 RG-DOC-015 RG-DOC-010 RG-DOC-001 RG-DOC-002
+no_embed_prefixes,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,1,RG-DOC-004 RG-DOC-002 RG-DOC-015 RG-DOC-015 RG-DOC-001 RG-DOC-010
+no_embed_prefixes,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,2,RG-DOC-006 RG-DOC-012 RG-DOC-015 RG-DOC-012 RG-DOC-006 RG-DOC-009
+no_embed_prefixes,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,1,RG-DOC-011 RG-DOC-012 RG-DOC-014 RG-DOC-014 RG-DOC-013 RG-DOC-001
+no_embed_prefixes,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-003 RG-DOC-015 RG-DOC-003 RG-DOC-002 RG-DOC-003 RG-DOC-004
+no_embed_prefixes,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,4,RG-DOC-015 RG-DOC-005 RG-DOC-015 RG-DOC-009 RG-DOC-009 RG-DOC-012
+no_embed_prefixes,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-014 RG-DOC-015 RG-DOC-010 RG-DOC-006 RG-DOC-008
+no_hebrew_prefix_strip,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-015 RG-DOC-003 RG-DOC-013
+no_hebrew_prefix_strip,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,1,RG-DOC-005 RG-DOC-005 RG-DOC-015 RG-DOC-009 RG-DOC-002 RG-DOC-015
+no_hebrew_prefix_strip,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-015 RG-DOC-001 RG-DOC-015 RG-DOC-009
+no_hebrew_prefix_strip,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-005 RG-DOC-001 RG-DOC-002 RG-DOC-015 RG-DOC-002 RG-DOC-010
+no_hebrew_prefix_strip,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,1,RG-DOC-005 RG-DOC-007 RG-DOC-007 RG-DOC-002 RG-DOC-015 RG-DOC-003
+no_hebrew_prefix_strip,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,1,RG-DOC-008 RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-012 RG-DOC-007
+no_hebrew_prefix_strip,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-005 RG-DOC-002 RG-DOC-005
+no_hebrew_prefix_strip,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,2,RG-DOC-015 RG-DOC-002 RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-001
+no_hebrew_prefix_strip,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,2,RG-DOC-015 RG-DOC-012 RG-DOC-015 RG-DOC-001 RG-DOC-010 RG-DOC-002
+no_hebrew_prefix_strip,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,2,RG-DOC-002 RG-DOC-004 RG-DOC-015 RG-DOC-008 RG-DOC-001 RG-DOC-015
+no_hebrew_prefix_strip,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,1,RG-DOC-012 RG-DOC-006 RG-DOC-015 RG-DOC-012 RG-DOC-009 RG-DOC-009
+no_hebrew_prefix_strip,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,2,RG-DOC-012 RG-DOC-011 RG-DOC-014 RG-DOC-001 RG-DOC-010 RG-DOC-013
+no_hebrew_prefix_strip,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-003 RG-DOC-015 RG-DOC-003 RG-DOC-002 RG-DOC-003 RG-DOC-006
+no_hebrew_prefix_strip,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,5,RG-DOC-015 RG-DOC-005 RG-DOC-015 RG-DOC-005 RG-DOC-009 RG-DOC-002
+no_hebrew_prefix_strip,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-006 RG-DOC-010 RG-DOC-014 RG-DOC-015 RG-DOC-008
+bm25_no_strip,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-015 RG-DOC-003 RG-DOC-006 RG-DOC-004 RG-DOC-015
+bm25_no_strip,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,2,RG-DOC-015 RG-DOC-005 RG-DOC-005 RG-DOC-002 RG-DOC-012 RG-DOC-009
+bm25_no_strip,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,2,RG-DOC-015 RG-DOC-004 RG-DOC-004 RG-DOC-002 RG-DOC-015 RG-DOC-013
+bm25_no_strip,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-002 RG-DOC-005 RG-DOC-001 RG-DOC-010 RG-DOC-015 RG-DOC-002
+bm25_no_strip,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,3,RG-DOC-010 RG-DOC-015 RG-DOC-005 RG-DOC-001 RG-DOC-015 RG-DOC-007
+bm25_no_strip,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,2,RG-DOC-015 RG-DOC-008 RG-DOC-012 RG-DOC-001 RG-DOC-015 RG-DOC-007
+bm25_no_strip,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-005 RG-DOC-007 RG-DOC-015 RG-DOC-006 RG-DOC-003
+bm25_no_strip,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,3,RG-DOC-015 RG-DOC-015 RG-DOC-006 RG-DOC-005 RG-DOC-006 RG-DOC-002
+bm25_no_strip,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,1,RG-DOC-012 RG-DOC-015 RG-DOC-015 RG-DOC-011 RG-DOC-004 RG-DOC-013
+bm25_no_strip,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,3,RG-DOC-002 RG-DOC-010 RG-DOC-015 RG-DOC-004 RG-DOC-001 RG-DOC-013
+bm25_no_strip,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,1,RG-DOC-012 RG-DOC-015 RG-DOC-006 RG-DOC-012 RG-DOC-009 RG-DOC-008
+bm25_no_strip,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,1,RG-DOC-011 RG-DOC-013 RG-DOC-014 RG-DOC-012 RG-DOC-003 RG-DOC-001
+bm25_no_strip,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-003 RG-DOC-003 RG-DOC-006 RG-DOC-005 RG-DOC-006
+bm25_no_strip,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,0,,RG-DOC-015 RG-DOC-015 RG-DOC-003 RG-DOC-004 RG-DOC-002 RG-DOC-012
+bm25_no_strip,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-015 RG-DOC-010 RG-DOC-014 RG-DOC-008 RG-DOC-006
+fusion_candidates_6,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-015 RG-DOC-004 RG-DOC-002
+fusion_candidates_6,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,1,RG-DOC-005 RG-DOC-005 RG-DOC-015 RG-DOC-005 RG-DOC-009 RG-DOC-002
+fusion_candidates_6,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-009 RG-DOC-015 RG-DOC-008 RG-DOC-012
+fusion_candidates_6,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-005 RG-DOC-001 RG-DOC-002 RG-DOC-002 RG-DOC-010 RG-DOC-015
+fusion_candidates_6,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,2,RG-DOC-002 RG-DOC-007 RG-DOC-001 RG-DOC-007 RG-DOC-010 RG-DOC-015
+fusion_candidates_6,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,1,RG-DOC-008 RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-015 RG-DOC-007
+fusion_candidates_6,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-015 RG-DOC-007 RG-DOC-005 RG-DOC-008 RG-DOC-005
+fusion_candidates_6,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,2,RG-DOC-015 RG-DOC-002 RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-001
+fusion_candidates_6,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,2,RG-DOC-015 RG-DOC-012 RG-DOC-015 RG-DOC-010 RG-DOC-001 RG-DOC-002
+fusion_candidates_6,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,1,RG-DOC-004 RG-DOC-002 RG-DOC-015 RG-DOC-010 RG-DOC-004 RG-DOC-008
+fusion_candidates_6,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,1,RG-DOC-012 RG-DOC-006 RG-DOC-015 RG-DOC-006 RG-DOC-012 RG-DOC-009
+fusion_candidates_6,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,1,RG-DOC-011 RG-DOC-014 RG-DOC-012 RG-DOC-013 RG-DOC-012 RG-DOC-014
+fusion_candidates_6,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-003 RG-DOC-015 RG-DOC-003 RG-DOC-003 RG-DOC-004 RG-DOC-002
+fusion_candidates_6,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,1,RG-DOC-009 RG-DOC-005 RG-DOC-015 RG-DOC-005 RG-DOC-015 RG-DOC-005
+fusion_candidates_6,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-010 RG-DOC-014 RG-DOC-006 RG-DOC-015 RG-DOC-006
+query_expansion_3,1,factual,מה כושר הנשיאה המרבי של CARGO?,RG-DOC-006 RG-DOC-015,1,1,RG-DOC-006 RG-DOC-006 RG-DOC-015 RG-DOC-003 RG-DOC-013 RG-DOC-002
+query_expansion_3,2,factual,מה זמן העבודה של SCOUT?,RG-DOC-005 RG-DOC-009,1,1,RG-DOC-005 RG-DOC-005 RG-DOC-005 RG-DOC-015 RG-DOC-009 RG-DOC-012
+query_expansion_3,3,factual,מה טווח ההגעה של TITAN?,RG-DOC-004,1,1,RG-DOC-004 RG-DOC-004 RG-DOC-015 RG-DOC-009 RG-DOC-009 RG-DOC-005
+query_expansion_3,4,identifier,מה זה RG-03?,RG-DOC-005 RG-DOC-002,1,1,RG-DOC-005 RG-DOC-001 RG-DOC-002 RG-DOC-010 RG-DOC-002 RG-DOC-015
+query_expansion_3,5,comparison,מה ההבדל בין החיישנים של ATLAS ושל SCOUT?,RG-DOC-003 RG-DOC-005 RG-DOC-007,1,1,RG-DOC-005 RG-DOC-002 RG-DOC-007 RG-DOC-015 RG-DOC-007 RG-DOC-002
+query_expansion_3,6,multi_doc,אילו רובוטים משתמשים ב-LiDAR ומה תפקידו בכל אחד?,RG-DOC-007 RG-DOC-008,1,1,RG-DOC-008 RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-007 RG-DOC-006
+query_expansion_3,7,recommendation,איזה רובוט מתאים לסיורים במפעל ולמדידת טמפרטורה?,RG-DOC-005 RG-DOC-002 RG-DOC-015,1,1,RG-DOC-015 RG-DOC-007 RG-DOC-005 RG-DOC-001 RG-DOC-005 RG-DOC-007
+query_expansion_3,8,recommendation,"איזה רובוט מתאים להעברת מטען של 200 ק""ג במחסן?",RG-DOC-006 RG-DOC-002,1,1,RG-DOC-006 RG-DOC-015 RG-DOC-002 RG-DOC-001 RG-DOC-006 RG-DOC-002
+query_expansion_3,9,factual,איזה רובוט מתחבר לרשת דרך Ethernet?,RG-DOC-004 RG-DOC-012,1,4,RG-DOC-015 RG-DOC-010 RG-DOC-002 RG-DOC-012 RG-DOC-004 RG-DOC-015
+query_expansion_3,10,factual,האם TITAN יכולה לנוע בין תחנות עבודה?,RG-DOC-004 RG-DOC-008 RG-DOC-015,1,1,RG-DOC-004 RG-DOC-002 RG-DOC-001 RG-DOC-010 RG-DOC-015 RG-DOC-004
+query_expansion_3,11,procedural,מה עושים אם CARGO לא חוזר לעמדת הטעינה?,RG-DOC-012,1,4,RG-DOC-006 RG-DOC-009 RG-DOC-008 RG-DOC-012 RG-DOC-012 RG-DOC-015
+query_expansion_3,12,factual,לאיזו מחלקה מדווחים על תקלה חוזרת?,RG-DOC-011 RG-DOC-013,1,3,RG-DOC-012 RG-DOC-001 RG-DOC-011 RG-DOC-014 RG-DOC-014 RG-DOC-013
+query_expansion_3,13,false_premise,"האם ATLAS יכול לשאת משקל של 50 ק""ג?",RG-DOC-003 RG-DOC-015,1,1,RG-DOC-003 RG-DOC-015 RG-DOC-003 RG-DOC-006 RG-DOC-015 RG-DOC-002
+query_expansion_3,15,unanswerable,כמה זמן לוקח לטעון את SCOUT?,RG-DOC-009,1,1,RG-DOC-009 RG-DOC-009 RG-DOC-015 RG-DOC-015 RG-DOC-012 RG-DOC-005
+query_expansion_3,16,unanswerable,מהי גרסת התוכנה הנוכחית של CARGO?,RG-DOC-014,1,1,RG-DOC-014 RG-DOC-006 RG-DOC-010 RG-DOC-015 RG-DOC-008 RG-DOC-014

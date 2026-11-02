@@ -1,0 +1,12 @@
+﻿config,id,type,question,expected_docs,hit,first_rank,recall,retrieved_docs
+main,1,paraphrase,כמה שוקל SCOUT?,RG-DOC-005,1,2,1.0,RG-DOC-015 RG-DOC-005 RG-DOC-005 RG-DOC-005 RG-DOC-007 RG-DOC-015
+main,2,comparison,איזה רובוט הכי מהיר?,RG-DOC-003 RG-DOC-005 RG-DOC-006,1,4,1.0,RG-DOC-015 RG-DOC-015 RG-DOC-001 RG-DOC-005 RG-DOC-003 RG-DOC-006
+main,3,synonym,איזה רובוט יש לו מצלמה שמזהה חום?,RG-DOC-005 RG-DOC-007 RG-DOC-015,1,1,1.0,RG-DOC-015 RG-DOC-007 RG-DOC-015 RG-DOC-005 RG-DOC-007 RG-DOC-005
+main,4,factual,מה הדיוק החזרתי של הזרוע?,RG-DOC-004,1,1,1.0,RG-DOC-004 RG-DOC-004 RG-DOC-001 RG-DOC-008 RG-DOC-015 RG-DOC-015
+main,5,transliteration,כמה זמן הקרגו מחזיק בטעינה אחת?,RG-DOC-006 RG-DOC-009 RG-DOC-015,1,1,1.0,RG-DOC-009 RG-DOC-015 RG-DOC-006 RG-DOC-006 RG-DOC-009 RG-DOC-012
+main,6,false_premise,האם SCOUT יכול לעבוד 6 שעות ברצף?,RG-DOC-005 RG-DOC-009 RG-DOC-015,1,1,1.0,RG-DOC-005 RG-DOC-005 RG-DOC-015 RG-DOC-009 RG-DOC-012 RG-DOC-015
+main,7,partial,אילו רובוטים לא מתאימים לעבודה בגשם?,RG-DOC-003,1,2,1.0,RG-DOC-015 RG-DOC-003 RG-DOC-015 RG-DOC-007 RG-DOC-001 RG-DOC-001
+main,8,unanswerable,מה מתח הסוללה של SCOUT?,RG-DOC-009,1,1,1.0,RG-DOC-009 RG-DOC-005 RG-DOC-009 RG-DOC-005 RG-DOC-012 RG-DOC-005
+main,9,procedural,מה צריך לעשות לפני החלפת אביזר קצה ב-TITAN?,RG-DOC-013,1,6,1.0,RG-DOC-004 RG-DOC-004 RG-DOC-009 RG-DOC-014 RG-DOC-015 RG-DOC-013
+main,10,factual,מי אחראי על עדכוני תוכנה ברובוטים?,RG-DOC-014,1,1,1.0,RG-DOC-014 RG-DOC-010 RG-DOC-001 RG-DOC-014 RG-DOC-010 RG-DOC-011
+main,11,english,What is the payload of TITAN?,RG-DOC-004 RG-DOC-015,1,1,1.0,RG-DOC-004 RG-DOC-015 RG-DOC-015 RG-DOC-004 RG-DOC-006 RG-DOC-009
